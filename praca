@@ -1,0 +1,22 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class gra {
+    public static void main(String[] args){
+        double x, y , z, wynik;
+
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Podaj masę zalewu/dolewki w Kg : ");
+        x = scanner.nextDouble();
+        System.out.println("Podaj ilość świeczek: ");
+        y = scanner.nextDouble();
+        System.out.println("Podaj wielkość zbiornika w Kg: ");
+        z = scanner.nextDouble();
+
+        System.out.println("ilość porcji: " + ((x * y) / z));
+
+
+    }
+}
